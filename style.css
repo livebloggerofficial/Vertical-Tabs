@@ -1,0 +1,50 @@
+.tabs-container {
+  font-family: "Roboto", sans-serif;
+  max-width: 700px;
+  min-height: 400px;
+  margin: 30px auto;
+  display: flex;
+  box-shadow: 0 4px 40px -8px rgba(0, 0, 0, 0.2);
+}
+
+.tabs-container .tabs {
+  width: 300px;
+  background: #000;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.tabs-container .tabs .tab {
+  padding: 24px 32px;
+  background: #222;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tabs-container .tabs .tab.active {
+  background: #f6fdff;
+  color: #222;
+}
+
+.tabs-container .content-container {
+  background: #f6fdff;
+}
+
+.tabs-container .content-container .content {
+  display: none;
+  padding: 32px;
+}
+
+.tabs-container .content-container .content.active {
+  display: block;
+}
+
+.tabs-container .content-container h3 {
+  margin: 0;
+  font-size: 30px;
+}
+
+.tabs-container .content-container p {
+  line-height: 2;
+}
